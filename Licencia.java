@@ -21,7 +21,7 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener{
 		nombre = ventanaBienvenida.texto;
 
 
-		label1 = new JLabel("T…RMINOS Y CONDICIONES");
+		label1 = new JLabel("T√âRMINOS Y CONDICIONES");
 		label1.setBounds(215,5,200,30);
 		label1.setFont(new Font("Andale Mono", 1, 14));
 		label1.setForeground(new Color(0, 0, 0));
@@ -30,14 +30,14 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener{
 		textarea1 = new JTextArea();
 		textarea1.setEditable(false);
 		textarea1.setFont(new Font("Andale Mono", 0, 9));
-		textarea1.setText("\n\n          T…RMINOS Y CONDICIONES" +
-                    "\n\n            A.  PROHIBIDA SU VENTA O DISTRIBUCI”N SIN AUTORIZACI”N DE LA GEEKIPEDIA DE ERNESTO." +
-                    "\n            B.  PROHIBIDA LA ALTERACI”N DEL C”DIGO FUENTE O DISE—O DE LAS INTERFACES GR¡FICAS." +
+		textarea1.setText("\n\n          T√âRMINOS Y CONDICIONES" +
+                    "\n\n            A.  PROHIBIDA SU VENTA O DISTRIBUCI√ìN SIN AUTORIZACI√ìN DE YESICA V. DIEZ." +
+                    "\n            B.  PROHIBIDA LA ALTERACI√ìN DEL C√ìDIGO FUENTE O DISE√ëO DE LAS INTERFACES GR√ÅFICAS." +
                     "\n            C.  YESICA V. DIEZ NO SE HACE RESPONSABLE DEL MAL USO DE ESTE SOFTWARE." +
-                    "\n\n          LOS ACUERDOS LEGALES EXPUESTOS A CONTINUACI”N RIGEN EL USO QUE USTED HAGA DE ESTE SOFTWARE" +
+                    "\n\n          LOS ACUERDOS LEGALES EXPUESTOS A CONTINUACI√ìN RIGEN EL USO QUE USTED HAGA DE ESTE SOFTWARE" +
                     "\n          (YESICA V. DIEZ), NO SE RESPONSABILIZA DEL USO QUE USTED HAGA CON ESTE SOFTWARE Y SUS SERVICIOS. " + 
-                    "\n          PARA ACEPTAR ESTOS T…RMINOS HAGA CLIC EN (ACEPTO)" +
-                    "\n          SI USTED NO ACEPTA ESTOS T…RMINOS, HAGA CLIC EN (NO ACEPTO) Y NO UTILICE ESTE SOFTWARE.");
+                    "\n          PARA ACEPTAR ESTOS T√âRMINOS HAGA CLIC EN (ACEPTO)" +
+                    "\n          SI USTED NO ACEPTA ESTOS T√âRMINOS, HAGA CLIC EN (NO ACEPTO) Y NO UTILICE ESTE SOFTWARE.");
 		scrollpane1 = new JScrollPane(textarea1);
 		scrollpane1.setBounds(10,40,575,200);
 		add(scrollpane1);
