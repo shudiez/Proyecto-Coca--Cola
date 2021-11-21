@@ -5,3 +5,4 @@
 
 <td> <img src="https://github.com/shudiez/Proyecto-Java-Coca--Cola/blob/main/images/ProyectoJavaCocaCola.jpg" width="400px" /> </td>
 
+<td> <img src="https://github.com/shudiez/Proyecto-Java-Coca--Cola/blob/main/images/Coca_Cola.jpg" width="400px" /> </td>
